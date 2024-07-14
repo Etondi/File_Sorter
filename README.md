@@ -4,6 +4,8 @@
 1. [Project Overview](#Project-Overview)
 2. [Tools](#Tools)
 3. [Code](#Code)
+4. [Limitations](#Limitations)
+5. [References](#References)
 
 
 ## Project Overview
@@ -55,3 +57,11 @@ for file in file_name:
         print(f"File {file} was not moved. It may already exist in the destination folder or is of an unsupported type.")
 
 print("File sorting complete.")
+```
+## Limitations
+- The script currently only handles five specific file types (jpg, png, pdf, txt, xlsx).
+- It doesn't process files that are already in the destination folders or unsupported file types.
+
+## References
+- Python Official Documentation: os module
+- Python Official Documentation: shutil module
